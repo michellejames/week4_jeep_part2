@@ -1,0 +1,46 @@
+.prices {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 25px;
+  margin: 0 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+  .prices__msrp,
+  .prices__leasing {
+   line-height: 30px;
+  }
+
+  .prices__msrp>li:first-child,
+  .prices__leasing>li:first-child {
+    font-weight: bold;
+  }
+
+  .prices__msrp>li:nth-child(2), 
+  .prices__leasing>li:nth-child(2) {
+    font-size: 2.3em;
+  /*  font-weight: 100;
+  */
+  }
+
+  .prices__msrp>li:nth-child(3), 
+  .prices__leasing>li:nth-child(3) {
+    font-size: .7em;
+  }
+
+  .prices__leasing-detail {
+    font-size: .2em;
+    font-weight: bold;
+  }
+
+  .prices__promo-header {
+    background-image: url(../img/promo-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 55px; 
+    border-radius: 8px;
+  }
+}

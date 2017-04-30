@@ -1,0 +1,35 @@
+/* 
+==============================================
+CONTENT:	Jeep Website
+AUTHOR:		Michelle James
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+@import "variables";
+@import "header";
+@import "carousel";
+@import "footer";
+
+// vehicles.html
+@import "vehicles_hero";
+@import "prices";
+@import "awards";
+
+

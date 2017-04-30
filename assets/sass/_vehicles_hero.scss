@@ -1,0 +1,106 @@
+.hero-vehicles {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/wrangler-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+
+  .hero__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15.37335%; 
+    margin-top: 2.674230146%;
+    line-height: 50px;
+  }
+
+  .hero__headline {
+    font-size: 3em;
+  }
+
+  .hero__paragraph {
+    background: rgba(0,0,0,.5);
+    line-height: 30px;
+  }
+}
+
+
+.prices {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 25px;
+  margin: 0 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+}
+
+.prices__msrp,
+.prices__leasing {
+ line-height: 30px;
+}
+
+.prices__msrp>li:first-child,
+.prices__leasing>li:first-child {
+  font-weight: bold;
+}
+
+.prices__msrp>li:nth-child(2), 
+.prices__leasing>li:nth-child(2) {
+  font-size: 2.3em;
+/*  font-weight: 100;
+*/
+}
+
+.prices__msrp>li:nth-child(3), 
+.prices__leasing>li:nth-child(3) {
+  font-size: .7em;
+}
+
+.prices__leasing-detail {
+  font-size: .2em;
+  font-weight: bold;
+}
+
+.prices__promo-header {
+  background-image: url(../img/promo-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 55px; 
+  border-radius: 8px;
+}
+
+.award {
+  background-image: url(../img/awards-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.award__image {
+  background-image: url(../img/award-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 5.584906%;
+  height: 64.862237%;
+}
+
+.award__text {
+  text-align: center;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.award__text>li:nth-child(2) {
+  font-weight: bold;
+}

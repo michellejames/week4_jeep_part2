@@ -1,0 +1,29 @@
+.award {
+  background-image: url(../img/awards-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .award__image {
+    background-image: url(../img/award-icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5.584906%;
+    height: 64.862237%;
+  }
+
+  .award__text {
+    text-align: center;
+    line-height: 20px;
+    padding-left: 20px;
+  }
+
+  .award__text>li:nth-child(2) {
+    font-weight: bold;
+  }
+}

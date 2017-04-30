@@ -1,0 +1,277 @@
+/* 
+==============================================
+CONTENT:	Jeep Website
+AUTHOR:		Michelle James
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%; }
+
+.header {
+  background: linear-gradient(#333, #000);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 5; }
+  .header .header__logo {
+    position: absolute;
+    background-image: url(../img/sprite_nav.png);
+    background-position: -288px -390px;
+    width: 87px;
+    height: 38px;
+    margin-left: 15.37335%; }
+  .header .header__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 23.42606%; }
+  .header .header__nav__items {
+    color: #7E8386;
+    padding: 12.5px 10px;
+    margin-left: 2px;
+    height: auto;
+    border-right: 2px solid #000; }
+  .header .header__nav__items:hover {
+    color: #fff;
+    background: #000;
+    border-top: 2px solid #ffb302; }
+  .header .header__banner {
+    position: absolute;
+    background-image: url(../img/sprite_nav.png);
+    background-position: -394px -375px;
+    width: 66px;
+    height: 94px;
+    margin-left: 79.42899%; }
+  .header .header__nav a {
+    text-decoration: none;
+    color: #7E8386; }
+  .header .header__nav a:hover {
+    color: #fff; }
+  .header .active {
+    color: #fff;
+    background: #000;
+    border-top: 2px solid #ffb302; }
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/feature-1-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.hero__boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 15px;
+  color: #9A9A9A;
+  font-weight: bold;
+  font-size: 2em; }
+
+.hero__boxes__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  height: 200px;
+  background: #fff;
+  border: 2px solid black; }
+
+.hero__boxes__2,
+.hero__boxes__3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 200px;
+  background: #fff;
+  border: 2px solid black; }
+
+.footer {
+  background: linear-gradient(#222, #111);
+  border-top: 1px solid #444;
+  padding: 20px 0; }
+  .footer .footer__sidemap {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    margin-left: 8.41874%;
+    margin-right: 8.41874%; }
+  .footer .footer__items {
+    font-size: 11px;
+    line-height: 20px;
+    color: #7E8386; }
+  .footer .footer__items--first {
+    font-size: 12px;
+    color: #fff; }
+
+.footer__impressum {
+  display: flex;
+  flex-direction: column; }
+  .footer__impressum .footer__impressum__paras {
+    color: #404337;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 8.41874%;
+    margin-right: 8.41874%; }
+
+.hero-vehicles {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/wrangler-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff; }
+  .hero-vehicles .hero__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15.37335%;
+    margin-top: 2.674230146%;
+    line-height: 50px; }
+  .hero-vehicles .hero__headline {
+    font-size: 3em; }
+  .hero-vehicles .hero__paragraph {
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 30px; }
+
+.prices {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 25px;
+  margin: 0 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px; }
+
+.prices__msrp,
+.prices__leasing {
+  line-height: 30px; }
+
+.prices__msrp > li:first-child,
+.prices__leasing > li:first-child {
+  font-weight: bold; }
+
+.prices__msrp > li:nth-child(2),
+.prices__leasing > li:nth-child(2) {
+  font-size: 2.3em;
+  /*  font-weight: 100;
+*/ }
+
+.prices__msrp > li:nth-child(3),
+.prices__leasing > li:nth-child(3) {
+  font-size: .7em; }
+
+.prices__leasing-detail {
+  font-size: .2em;
+  font-weight: bold; }
+
+.prices__promo-header {
+  background-image: url(../img/promo-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 55px;
+  border-radius: 8px; }
+
+.award {
+  background-image: url(../img/awards-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.award__image {
+  background-image: url(../img/award-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 5.584906%;
+  height: 64.862237%; }
+
+.award__text {
+  text-align: center;
+  line-height: 20px;
+  padding-left: 20px; }
+
+.award__text > li:nth-child(2) {
+  font-weight: bold; }
+
+.prices {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 25px;
+  margin: 0 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px; }
+  .prices .prices__msrp,
+  .prices .prices__leasing {
+    line-height: 30px; }
+  .prices .prices__msrp > li:first-child,
+  .prices .prices__leasing > li:first-child {
+    font-weight: bold; }
+  .prices .prices__msrp > li:nth-child(2),
+  .prices .prices__leasing > li:nth-child(2) {
+    font-size: 2.3em;
+    /*  font-weight: 100;
+  */ }
+  .prices .prices__msrp > li:nth-child(3),
+  .prices .prices__leasing > li:nth-child(3) {
+    font-size: .7em; }
+  .prices .prices__leasing-detail {
+    font-size: .2em;
+    font-weight: bold; }
+  .prices .prices__promo-header {
+    background-image: url(../img/promo-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 55px;
+    border-radius: 8px; }
+
+.award {
+  background-image: url(../img/awards-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .award .award__image {
+    background-image: url(../img/award-icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5.584906%;
+    height: 64.862237%; }
+  .award .award__text {
+    text-align: center;
+    line-height: 20px;
+    padding-left: 20px; }
+  .award .award__text > li:nth-child(2) {
+    font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */
