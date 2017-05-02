@@ -1,15 +1,22 @@
+.middle-module {
+  position: relative;
+  top: -70px;
+}
+
 .prices {
   display: flex;
   justify-content: space-around;
   background: #fff;
   padding: 25px;
-  margin: 0 20px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  width: 90%;
+  margin-left: 5%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 
   .prices__msrp,
   .prices__leasing {
-   line-height: 30px;
+    line-height: 1.4;
+    padding-top: 8px;
   }
 
   .prices__msrp>li:first-child,
@@ -19,9 +26,6 @@
 
   .prices__msrp>li:nth-child(2), 
   .prices__leasing>li:nth-child(2) {
-    font-size: 2.3em;
-  /*  font-weight: 100;
-  */
   }
 
   .prices__msrp>li:nth-child(3), 
@@ -39,8 +43,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 50px;
-    height: 55px; 
+    width: 23%;
+    height: 75px; 
     border-radius: 8px;
   }
 }

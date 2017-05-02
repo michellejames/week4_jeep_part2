@@ -14,15 +14,23 @@
     margin-left: 15.37335%; 
     margin-top: 2.674230146%;
     line-height: 50px;
+    width: 50%;
   }
 
   .hero__headline {
     font-size: 3em;
   }
 
+  .hero__subheadline {
+    text-transform: uppercase;
+
+  }
+
   .hero__paragraph {
     background: rgba(0,0,0,.5);
     line-height: 30px;
+    width: 70%;
+    padding: 10px 20px;
   }
 }
 
@@ -63,6 +71,9 @@
 .prices__leasing-detail {
   font-size: .2em;
   font-weight: bold;
+  width: 41%;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 .prices__promo-header {
